@@ -7,5 +7,6 @@ $(document).ready(function() {
     const time = $("#time").val();
    
     $("#output").text("Your appointment is confirmed, " + name + " " + description + " " + date + " " + time + ".");
+    window.location.href = "https://www.wpclipart.com/education/encouraging_words/You_did_it.png";
   });
 });
